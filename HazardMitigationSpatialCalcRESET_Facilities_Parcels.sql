@@ -7,7 +7,6 @@
 UPDATE [OCSurvey].[dbo].[HM_2020_LEGAL_LOTS_ALL_DATA]
 SET [EARTHQUAKE_HAZARD] = ('Not MMI of 7 or Higher'),--(b.GRID_CODE)
     [FIRE_HAZARD] = ('No Fire Zone'),
-    [FIRE_HAZARD] = ('No Fire Zone'),
     [FLOOD_100_YR_PLUS] = (0),
     [FLOOD_100_YR] = (0),
     [FLOOD_500_YR] = (0),
@@ -23,7 +22,6 @@ SET [EARTHQUAKE_HAZARD] = ('Not MMI of 7 or Higher'),--(b.GRID_CODE)
 -- Update Earthquake Hazard zone --
 UPDATE [OCSurvey].[dbo].[HM_2020_COUNTY_PROPERTIES]
 SET [EARTHQUAKE_HAZARD] = ('Not MMI of 7 or Higher'),
-[FIRE_HAZARD] = ('No Fire Zone'),
 [FIRE_HAZARD] = ('No Fire Zone'),
 [FLOOD_100_YR_PLUS] = (0),
 [FLOOD_100_YR] = (0),
